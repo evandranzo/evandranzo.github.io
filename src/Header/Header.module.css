@@ -1,0 +1,35 @@
+nav {
+	background: rgba(54,95,160,1);
+
+    text-align: center;
+    padding: 10px 0;
+	border-radius: 10px;
+}
+nav ul, nav li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none
+}
+nav ul {
+	width: 100%;
+}
+nav li {
+    margin: 0 10px;
+	display: inline-block;
+}
+nav a {
+	line-height: 45px;
+	padding: 0 14px;
+	color: #FFFFFF;
+    font-size: 1.2em;
+    border-radius: 20px;
+    transition: background .5s;
+}
+nav li a:hover {
+	color: #0099CC;
+	background: #cacaca;
+}
+nav .active {
+	background: #0e125557;
+	border-radius: 20px;
+}
